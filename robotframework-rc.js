@@ -1,12 +1,14 @@
 //Separator for splitting commands
 var SEPARATOR = "  ";
 
-//Mapping for Selenium Actions -> Selenium Robot Keywords
+//Mapping for Selenium Commands -> Selenium Robot Keywords
 var KEYWORDS = {
   type: "Input Text",
-  select: "Select From List"
+  select: "Select From List",
+  verifyValue: "Textfield Should Contain"
 };
 
+//converts the test case respectively the single command into the target format
 function formatCommands(commands) {
   var result = '';
   for (var i = 0; i < commands.length; i++) {
@@ -24,6 +26,7 @@ function formatCommands(commands) {
   return result;
 }
 
+//takes the source of the recorded test case and maps it on a test case object
 function parse(testCase, source) {
   var doc = source;
   var commands = [];
@@ -42,6 +45,7 @@ function parse(testCase, source) {
   testCase.setCommands(commands);
 }
 
+//delegate to the formatCommands-method
 function format(testCase, name) {
   return formatCommands(testCase.commands);
 }
