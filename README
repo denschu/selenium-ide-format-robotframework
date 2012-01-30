@@ -19,8 +19,7 @@ $ Input Text  feldId2  AnotherValue
 $ Textfield Should Contain  verifyValue  feldId  Test
 
 
-## Useful Resources
-[Locating Elements by Label Text](http://wiki.openqa.org/display/SEL/locateByLabelText)
-[Blog about this Plugin](http://blog.codecentric.d)
+## Useful Ressources
+[Blog about this Plugin](http://blog.codecentric.de)
 
 
