@@ -20,6 +20,6 @@ $ Textfield Should Contain  verifyValue  feldId  Test
 
 
 ## Useful Ressources
-[Blog about this Plugin](http://blog.codecentric.de)
+[Blog about this Plugin](http://blog.codecentric.de/en/2012/02/recording-robot-framework-keywords-with-selenium-ide/)
 
 
