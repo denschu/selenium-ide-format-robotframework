@@ -22,4 +22,7 @@ $ Textfield Should Contain  verifyValue  feldId  Test
 ## Useful Ressources
 [Blog about this Plugin](http://blog.codecentric.de/en/2012/02/recording-robot-framework-keywords-with-selenium-ide/)
 
+##coderwall
+[![endorse](http://api.coderwall.com/denschu/endorsecount.png)](http://coderwall.com/denschu)
+
 
